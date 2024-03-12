@@ -3,7 +3,7 @@
 /*------------------------------------------------Colours--------------------------------------------------------------------*/
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #1f1b1b;
 }
 .bg-color-three-reasons{
     background-color: #fff;
@@ -13,18 +13,18 @@
     background-color: #f4f4f4;
 }
 .bg-color-work-history{
-    background-color: #9b59b6;
+    background-color: #003049;
 }
 
 .bg-color-contact{
     background-color: #fff;
 }
 .ui-menu-color-home{
-    background-color: #e67e22;
+    background-color: #d62828;
 }
 
 .ui-menu-color-resume{
-    background-color: #9b59b6;
+    background-color: #003049;
 }
 
 .ui-menu-color-contact{
@@ -150,11 +150,13 @@ header{
 .hvr-sweep-to-bottom::before{
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
+    box-shadow: 0px 0px 35px 0px rgb(128, 0, 255);
 }
+
 
 /*------------------------------------------------Footer--------------------------------------------------------------------*/
 footer{
-    background-color: #525252;
+    background-color: #1f1b1b;
     color:#fafafa;
     min-height: 120px;
     margin:0;
@@ -170,7 +172,8 @@ footer{
     -o-transition: all 0.35s ease-in-out;
 }
 .cv-pdf i:hover{
-    color: #e84610;
+    color: #d62828;
+    box-shadow: 0px 0px 35px 0px rgb(128, 0, 255);
 }
 .social-links li a i {
     width: 32px;
@@ -188,7 +191,8 @@ footer{
     -o-transition: all 0.35s ease-in-out;
 }
 .social-links li a i:hover{
-    background-color: #e84610;
+    background-color: #d62828;
+    box-shadow: 0px 0px 35px 0px rgb(128, 0, 255);
 }
 #footer-details{
     padding: 20px;
@@ -196,7 +200,7 @@ footer{
 /*------------------------------------------------Three Reasons--------------------------------------------------------------------*/
 .three-reasons-icon{
     font-size: 26px;
-    color:#e67e22;
+    color:#d62828;
 
 }
 .three-reasons-heading{
@@ -312,7 +316,10 @@ button[type="submit"]{
     margin-top: 15px;
     margin-bottom: 20px;
     color:#fafafa;
-    background-color: #e84610;
+    background-color: #d62828;
+}
+button:hover{
+    box-shadow: 0px 0px 35px 0px rgb(128, 0, 255);
 }
 /*-----------------------------------------------Media Queries-----*/
 @media(min-width: 992px) {
